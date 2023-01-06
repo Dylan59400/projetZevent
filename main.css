@@ -1,0 +1,90 @@
+@media screen and (min-width: 800px) {
+    .container {
+        margin: 1em 2em;
+
+    }    
+}
+
+body{
+    background-color: #202020;
+    color: white;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    background-color: black;
+}
+
+ol {
+    list-style: none;
+}
+
+main {
+    height: 100%;
+    display: flex;
+}
+
+main .left {
+    height: 25%;
+    height: 500px;
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+}
+
+
+video{
+    width: 250px;
+}
+
+main .right {
+    width: 75%;
+}
+
+button {
+    background-color: green;
+}
+
+.view{
+    border: 1px solid white;
+    width: 100px;
+}
+
+.date{
+    border: 1px solid white;
+    width: 150px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.video{
+    background-color: black;
+}
+
+.clr{
+    background-color: green;
+}
+
+.page{
+    text-align: center;
+}
+
+.right{
+    margin-left: 10px;
+}
+
